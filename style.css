@@ -1,0 +1,227 @@
+
+/* The code below is for styling the page
+
+<!---This is one way of styling, by seperating the selectors.
+
+
+<style>
+
+
+    element {
+
+        property: value;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    p {
+
+        text-align: center;
+
+    }
+
+</style>
+
+-->
+<!---This is another way of doing it, by putting all the selectors as one.-->
+*/
+
+
+    body {
+
+        background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+
+        font-family: sans-serif;
+
+        padding: 20px;
+}
+
+
+.established{
+
+    font-style: italic;
+}
+    
+
+
+/*This is the div element.*/
+
+
+
+h1, h2, p {
+
+    text-align: center;
+}
+
+h1, h2 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+h2{
+
+    font-size: 30px;
+}
+
+
+
+div {
+
+    width: 80%;
+    background-color: indianred;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;   /*This is to reduce the width of the menu page.*/
+
+}
+
+
+
+.flavor, .dessert{
+
+     text-align: left;
+     width: 75%;
+}
+
+
+
+
+.price{
+
+    text-align: right;
+    width: 25%;
+}
+
+
+
+
+.item p {
+
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+
+
+.bottom-line{
+
+    margin-top: 25px;
+
+}
+
+
+
+hr {
+
+    height: 4px;
+    background-color: indianred;
+    border-color: indianred;
+}
+
+
+/*FOOTER*/
+
+/*The default color of a link that has not yet been clicked on is typically blue.
+ The default color of a link that has already been visited from a page is typically purple.*/
+
+
+footer{
+
+    font-size: 15px;
+
+
+}
+
+
+
+a {     /* This is for the link at the footer. This is to make it black color.*/
+
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+
+a:hover{
+
+    color: dimgray;
+
+}
+
+/*
+You change properties of a link when the link is 
+actually being clicked by using a pseudo-selector that looks like 
+a:active { propertyName: propertyValue; }.
+
+*/
+
+
+a:active {
+
+    color: white;
+
+}
+
+.address{
+
+margin-bottom: 5px;
+
+}
+
+img{
+
+
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    image-resolution: 400px;
+
+}
+
+.fa-spin {
+    
+    
+    display: block;
+    
+
+}
+
+
+.fa-solid {
+display: block;
+text-align: center;
+margin-left: 240px;
+margin: right 240px;   
+margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
